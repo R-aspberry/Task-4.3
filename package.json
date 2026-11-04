@@ -1,0 +1,12 @@
+{
+  "name": "acltask4",
+  "private": true,
+  "workspaces": [
+    "Task-4.3"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=acl-uiux-dorm-booking",
+    "build": "npm run build --workspace=acl-uiux-dorm-booking",
+    "preview": "npm run preview --workspace=acl-uiux-dorm-booking"
+  }
+}
